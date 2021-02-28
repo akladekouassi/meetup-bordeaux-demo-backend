@@ -1,0 +1,1102 @@
+{
+  "testData": [
+    {
+      "id": "t45AiwidW",
+      "uuid": "6383f84e-b511-44c5-a835-3ece1d781fa8",
+      "codeword": "Bisou1212",
+      "recipientFirstName": "Kamara",
+      "recipientLastName": "Aboulay",
+      "senderLastName": "Traore",
+      "senderFirstName": "Lanssina",
+      "deliveryManPhone": "+22565454534",
+      "recipientPhone": "+22565453423"
+    }
+  ],
+  "officesList": {
+    "offices": [
+      {
+        "ulid": "01EVY003E1MCS7CC6KCC260P0C",
+        "name": "Gare Koumassi",
+        "disabled": false,
+        "visible": true,
+        "phoneNumber": null,
+        "zone": {
+          "name": "ABIDJAN-ADJAME",
+          "country": "CI"
+        },
+        "numberOfParcels": 10,
+        "partner": true,
+        "status": "ACTIVE",
+        "lastUpdated": "26/10/2021",
+        "moneyInRegister": 30000,
+        "visibility": "VISIBLE",
+        "currency": "XOF"
+      },
+      {
+        "ulid": "0213Y003E1MCS7CC6KCC260P0C",
+        "name": "Gare Ouagadougou",
+        "disabled": false,
+        "visible": true,
+        "phoneNumber": "+22522006677",
+        "zone": {
+          "name": "Ouagadougou",
+          "country": "BF"
+        },
+        "numberOfParcels": 10,
+        "partner": true,
+        "status": "INACTIVE",
+        "lastUpdated": "12/10/2020",
+        "moneyInRegister": 145000,
+        "currency": "XOF",
+        "visibility": "VISIBLE"
+      },
+      {
+        "ulid": "08320Y0E1MCS7CC6KCC260P0C",
+        "name": "Gare Adjamé",
+        "disabled": false,
+        "visible": true,
+        "phoneNumber": "+22599006677",
+        "zone": {
+          "name": "Tomoudi",
+          "country": "CI"
+        },
+        "numberOfParcels": 200,
+        "partner": true,
+        "status": "DISABLED",
+        "lastUpdated": "10/10/2020",
+        "moneyInRegister": 20000,
+        "currency": "XOF",
+        "visibility": "VISIBLE"
+      },
+      {
+        "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+        "name": "Gare Adjamé",
+        "disabled": false,
+        "visible": false,
+        "phoneNumber": "+22599006677",
+        "zone": {
+          "name": "Tomoudi",
+          "country": "CI"
+        },
+        "numberOfParcels": 10,
+        "partner": true,
+        "status": "DISABLED",
+        "lastUpdated": "10/10/2020",
+        "moneyInRegister": 200000,
+        "currency": "XOF",
+        "visibility": "INVISIBLE"
+      },
+      {
+        "ulid": "08320Y0E1MCS7CC6KCC260PA",
+        "name": "Gare Adjamé",
+        "disabled": false,
+        "visible": false,
+        "phoneNumber": "+22599006677",
+        "zone": {
+          "name": "Niamé",
+          "country": "NE"
+        },
+        "numberOfParcels": 6,
+        "partner": true,
+        "status": "DISABLED",
+        "lastUpdated": "10/10/2020",
+        "moneyInRegister": 20000,
+        "currency": "XOF",
+        "visibility": "INVISIBLE"
+      },
+      {
+        "ulid": "0AS8320Y0E1MCS7CC6KCC260P0C",
+        "name": "Gare Adjamé",
+        "disabled": false,
+        "visible": true,
+        "phoneNumber": "+22599006677",
+        "zone": {
+          "name": "Abidjan",
+          "country": "CI"
+        },
+        "numberOfParcels": 20,
+        "partner": true,
+        "status": "INVISIBLE",
+        "lastUpdated": "10/10/2020",
+        "moneyInRegister": 24050,
+        "currency": "XOF",
+        "visibility": "VISIBLE"
+      },
+      {
+        "ulid": "0AAZS8320Y0E1MCS7CC6KCC260P0C",
+        "name": "Gare Dakar",
+        "disabled": false,
+        "visible": false,
+        "phoneNumber": "+22199006677",
+        "zone": {
+          "name": "Dakar",
+          "country": "SN"
+        },
+        "numberOfParcels": 20,
+        "partner": true,
+        "status": "INVISIBLE",
+        "lastUpdated": "10/10/2020",
+        "moneyInRegister": 24050,
+        "currency": "XOF",
+        "visibility": "INVISIBLE"
+      }
+    ],
+    "metadatas": {
+      "pagination": {
+        "nextCursor": "08320Y0E1MCS7CC6KCC260P0C"
+      }
+    }
+  },
+  "agency": {
+    "agencyRecordData": {
+      "name": "Gare koumassi Abidjan",
+      "profil": {
+        "informations": [
+          {
+            "contact": {
+              "name": "Mari Paul",
+              "number": "+225 45 34 12 43"
+            },
+            "address": {
+              "name": "Séguéla - Cote d'ivoire",
+              "description": "Non loin de l’hôpital de la charité et de l’école d’infirmière et de fruitizz."
+            },
+            "openingHours": [
+              "Lun. 9h-18h",
+              "Mar. 9h-18h",
+              "Mer. 9h-18h",
+              "Jeu. 9h-18h",
+              "Ven. 9h-18h",
+              "Sam. fermé",
+              "Dim. fermé"
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "J’ai parrainé un nouveau utilisateur.",
+            "commentDate": "20/10/20 à 12:30"
+          },
+          {
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "J’ai parrainé un nouveau utilisateur.",
+            "commentDate": "20/10/20 à 12:30"
+          }
+        ],
+        "documents": [
+          {
+            "name": "Carte d'identité",
+            "url": ""
+          },
+          {
+            "name": "Extrait de naissance",
+            "url": ""
+          },
+          {
+            "name": "Passeport",
+            "url": ""
+          }
+        ],
+        "usersList": {
+          "users": [
+            {
+              "name": "Isabelle Laot",
+              "cashOutstanding": 2000,
+              "synchronized": true
+            },
+            {
+              "name": "Atik Hasem",
+              "cashOutstanding": 3000,
+              "synchronized": true
+            },
+            {
+              "name": "Nathan Bella",
+              "cashOutstanding": 5000,
+              "synchronized": false
+            },
+            {
+              "name": "Marie Jesus",
+              "cashOutstanding": 1000,
+              "synchronized": true
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            },
+            {
+              "name": "Abou Ahmed",
+              "cashOutstanding": 8000,
+              "synchronized": false
+            }
+          ],
+          "metadatas": {
+            "pagination": {
+              "nextCursor": "08320Y0E1MCS7CC6KCC260P0C"
+            }
+          }
+        },
+        "parcelsList": {
+          "parcels": [
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JOUER1243",
+              "sender": {
+                "name": "Kokou Armand benissia Koh",
+                "phoneNumber": "+225 05 34 23 54 23"
+              },
+              "recipient": {
+                "name": "Abel Arnaud Bah armel",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare CTE yamoussoukro man",
+              "destinationOffice": "Gare Dimbokro",
+              "status": "pre_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "delivered",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "delivered",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "12/09/2020 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "delivered",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "out_for_delivery",
+              "createdDate": "10/01/2021 13:34"
+            },
+            {
+              "ulid": "0A8320Y0E1MCS7CC6KCC260P0C",
+              "codeWord": "JETER6534",
+              "sender": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "recipient": {
+                "name": "Agbou Bamba",
+                "phoneNumber": "+221 07 67 56 45 34"
+              },
+              "departureOffice": "Gare UTB yakro",
+              "destinationOffice": "Gare UTB Abidjan",
+              "status": "in_transit",
+              "createdDate": "10/01/2021 13:34"
+            }
+          ],
+          "metadatas": {
+            "pagination": {
+              "nextCursor": "08320Y0E1MCS7CC6KCC260P0C"
+            }
+          }
+        }
+      }
+    }
+  },
+  "users": {
+    "usersList": {
+      "users": [
+        {
+          "ulid": "01EVY003E1MCS7CC6KCC260P0C",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "0453ETGZ3D44R42A23EZR4E",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 03"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "inactive"
+        },
+        {
+          "ulid": "05TJHNGB34E21AZE435433RE",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "12EZ3EDERVNGHTBREBF3E4OSE",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "inactive"
+        },
+        {
+          "ulid": "RT453E2ZADSQD3R3236T4T3T",
+          "userName": "AmadouKone32",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Boss"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "UTB",
+            "station": "Adjame 002"
+          },
+          "customerName": "Afrik market",
+          "appVersion": "3.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "OKTJ5EZRE32SDQD314543GTRE",
+          "userName": "ArmelKanan42",
+          "fullName": {
+            "name": "Armel Kanan",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "EXPRESS DU RANCHE",
+            "station": "YOPOUGON"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "inactive"
+        },
+        {
+          "ulid": "64354FDSFDSZAEZE211E36Y55T4T",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "inactive"
+        },
+        {
+          "ulid": "231EZADSQFGE4R3R3FE3F3",
+          "userName": "TamsirAdou",
+          "fullName": {
+            "name": "Tamsir Adou",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "tamsiradou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "AKS TECH",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "654T54GFERGFEFDZ43356TRE3RE",
+          "userName": "djedjeArmel",
+          "fullName": {
+            "name": "Djedje Armel",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "djedje@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "R43R433E11EGT4G65YH5HGREGR3",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "T43443VSDFEE2RJ76U8I8U67U",
+          "userName": "IsraelAlphone42",
+          "fullName": {
+            "name": "Israel Alphone",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "israelalphone@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Arle",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "42R220IT5967YUY65GR3T543T",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "R43RT54Y65U76UI8IOO9O0GTRGR",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "32E21ZAFF4FRGT4BGR442RE32",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "EEZFD4321FD32DEGRTR421DZ1",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "4R3REZ1E1VEFBGTHYGR4G45BGVD",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "T4T54EDE31E1DSASQ1E1FEZT42",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "E32EEZAEFDSF3R3G3T545HTRFE",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        },
+        {
+          "ulid": "E21EEZR3GR4GRBY5Y6JYU0T54T54K",
+          "userName": "Coulibalyassetou21",
+          "fullName": {
+            "name": "Assetou Coulibaly",
+            "role": "Guichetier"
+          },
+          "contact": {
+            "email": "coulibalyassetou@gmail.com",
+            "phoneNumber": "+221 07 67 56 45 34"
+          },
+          "agency": {
+            "companyName": "CTE",
+            "station": "Adjame 01"
+          },
+          "customerName": "Tioté Maryse",
+          "appVersion": "4.0.0",
+          "status": "active"
+        }
+      ],
+      "metadatas": {
+        "pagination": {
+          "nextCursor": "08320Y0E1MCS7CC6KCC260P0C"
+        }
+      }
+    },
+    "userRecord": {
+      "profil": {
+        "informations": {
+          "firstName": "Assetou",
+          "lastName": "Coulibaly",
+          "userName": "CoulibalyAssetou",
+          "contact": {
+            "email": "Assetoucoulibaly@gmail.com",
+            "phoneNumber": "+225 07 34 54 23 02"
+          },
+          "KOTscanAndroidProfil": "Guichetier",
+          "KOTscanAdminProfil": "Opération",
+          "appVersion": "4.0.0"
+        },
+        "salesFigures": {
+          "ca": {
+            "price": "120 000",
+            "growth": "4"
+          },
+          "CashOutstanding": {
+            "price": "30 000",
+            "growth": "-6"
+          },
+          "numberOfParcelsCreated": {
+            "number": 40,
+            "growth": "-6"
+          },
+          "numberOfParcelsDelivered": {
+            "number": 10,
+            "growth": "-8"
+          }
+        },
+        "comments": [
+          {
+            "uild": "0947be86-e91c-4e63-8734-929fT8e2edc4",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "Il manque des documents.",
+            "commentDate": "2021-02-18T16:28:00.822Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-9ERf58e2edc4",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "J’ai parrainé un nouvel utilisateur.",
+            "commentDate": "2021-02-18T16:28:00.822Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-92er58e2edc4",
+            "name": "Aklade",
+            "avatar": "avatar.png",
+            "companyName": "AKS",
+            "comment": "Le client n'arrive pas a me joindre",
+            "commentDate": "2021-02-18T16:28:00.822Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-87er-929f58e2edc4",
+            "name": "Madiodio",
+            "avatar": "avatar.png",
+            "companyName": "alp.tech",
+            "comment": "Nous verons cela plus tard",
+            "commentDate": "2021-02-18T16:30:30.396Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-929f58e2dsc4",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "Je viens de verifier le resultat",
+            "commentDate": "2021-02-19T09:45:27.957Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-929f58e2eded",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "Ok pas de soucis",
+            "commentDate": "2021-02-19T10:06:53.507Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-929f58e2edzd",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "Mais pourquoi l'appli ne synchronise plus?",
+            "commentDate": "2021-02-19T10:16:33.552Z"
+          },
+          {
+            "uild": "0947be86-e91c-4e63-8734-929f58e2edc4",
+            "name": "Jean-Baptiste",
+            "avatar": "avatar.png",
+            "companyName": "Formation car",
+            "comment": "Pour la generation de l'UUID",
+            "commentDate": "2021-02-19T12:54:16.689Z"
+          }
+        ]
+      }
+    }
+  }
+}
