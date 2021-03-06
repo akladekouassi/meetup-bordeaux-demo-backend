@@ -1,27 +1,27 @@
-import path from "path";
-import low from "lowdb";
-var uuid = require("uuid");
-import FileSync from "lowdb/adapters/FileSync";
-import { TestData } from "./models/testDataModel";
-import { AgencyRecord } from "./models/agencyRecordModel";
-import { UsersModel, comments } from "./models/usersModel";
+import path from 'path';
+import low from 'lowdb';
+var uuid = require('uuid');
+import FileSync from 'lowdb/adapters/FileSync';
+import { TestData } from './models/testDataModel';
+import { AgencyRecord } from './models/agencyRecordModel';
+import { UsersModel, comments, Users } from './models/usersModel';
 
 export type TDatabase = {
   testData: TestData[];
   agency: AgencyRecord[];
-  users: UsersModel[];
+  users: Users[];
 };
 
 // DEFINING THE DATABASE LOCATION
-const databaseFile = path.join(__dirname, "./data.json");
+const databaseFile = path.join(__dirname, './data.json');
 const adapter = new (FileSync as any)(databaseFile);
 const db: any = low(adapter);
 
-const TEST_DATA_TABLE = "testData";
-const OFFICES_LIST = "officesList";
-const AGENCY_RECORD_TABLE = "agency";
-const USERS_TABLE = "users";
-const COMMENTS_TABLE = "users.userRecord.profil.comments";
+const TEST_DATA_TABLE = 'testData';
+const OFFICES_LIST = 'officesList';
+const AGENCY_RECORD_TABLE = 'agency';
+const USERS_TABLE = 'Users';
+const COMMENTS_TABLE = 'users.userRecord.profil.comments';
 
 function saveContent<T>(data: T, table: string): void {
   db.get(table).push(data).write();
@@ -42,32 +42,33 @@ export const getProfilInformationBlocData = (): AgencyRecord[] => [
   },
 ];
 
-export const getAllParcels = (): AgencyRecord[] => [
-  getAllAgencyRecordData().agencyRecordData.profil.parcelsList,
-];
+export const getAllParcels = (): AgencyRecord[] => [getAllAgencyRecordData().agencyRecordData.profil.parcelsList];
 
 //USERS
 const getAllUsersListData = () => db.get(USERS_TABLE).value();
 export const getUsersListe = (): UsersModel => ({ usersList: getAllUsersListData().usersList });
 
-export const getUserProfil = (): UsersModel["profil"] => ({
+export const getUserProfil = (): UsersModel['profil'] => ({
   informations: getAllUsersListData().userRecord.profil.informations!,
   salesFigures: getAllUsersListData().userRecord.profil.salesFigures!,
   comments: getAllUsersListData().userRecord.profil.comments!,
 });
 
-export const createComment = (comment: comments): comments => {
-  const commentModel: comments = {
+export const createUser = (user: Users): Users => {
+  const userModel: Users = {
     uild: uuid.v4(),
-    name: comment.name,
-    avatar: comment.avatar,
-    companyName: comment.companyName,
-    comment: comment.comment,
-    commentDate: new Date(),
+    poste: user.poste,
+    firstName: user.firstName,
+    lastName: user.lastName,
+    phoneNumber: user.phoneNumber,
+    email: user.email,
+    gender: user.gender,
+    hiredDate: user.hiredDate,
+    isPermanent: user.isPermanent,
   };
 
-  saveContent(commentModel, COMMENTS_TABLE);
-  return commentModel;
+  saveContent(userModel, USERS_TABLE);
+  return userModel;
 };
 
 export default db;

@@ -1,5 +1,5 @@
 export interface UsersModel {
-  usersList?: users[];
+  usersList?: Users[];
   profil?: {
     informations: informations;
     salesFigures: salesFigures;
@@ -7,24 +7,16 @@ export interface UsersModel {
   };
 }
 
-interface users {
-  ulid: string;
-  userName: string;
-  fullName: {
-    name: string;
-    role: string;
-  };
-  contact: {
-    email: string;
-    phoneNumber: string;
-  };
-  agency: {
-    companyName: string;
-    station: string;
-  };
-  customerName: string;
-  appVersion: string;
-  status: "active" | "inactive";
+export interface Users {
+  uild: string;
+  poste: string;
+  firstName: string;
+  lastName: string;
+  phoneNumber: string;
+  email: string;
+  gender: string;
+  hiredDate: Date;
+  isPermanent: boolean;
 }
 
 interface informations {
