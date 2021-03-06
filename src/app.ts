@@ -4,7 +4,6 @@ import logger from 'morgan';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import testDataRoutes from './testdata-route';
-import AgencyRecordRoutes from './agency-record.route';
 import UsersRoutes from './users.route';
 
 require('dotenv').config();
@@ -17,7 +16,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '../public')));
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
@@ -38,6 +37,6 @@ app.use(bodyParser.json());
 //     unset: "destroy",
 //   })
 // );
-app.use('/', testDataRoutes, AgencyRecordRoutes);
+app.use('/', testDataRoutes);
 app.use('/users', UsersRoutes);
 app.listen(port, () => console.log('SERVER STARTED ON PORTS', +port));
