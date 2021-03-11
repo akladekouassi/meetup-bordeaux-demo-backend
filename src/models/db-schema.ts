@@ -1,10 +1,5 @@
-import { OfficesData, TestData } from "./testDataModel";
-import { AgencyRecord } from "./agencyRecordModel";
-import { UsersModel } from "./usersModel";
+import { UsersModel } from './employersModel';
 
 export interface DbSchema {
-  testData: TestData[];
-  agency: AgencyRecord[];
-  getOfficiesList: OfficesData[];
   users: UsersModel;
 }
