@@ -3,8 +3,7 @@ import path from 'path';
 import logger from 'morgan';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import testDataRoutes from './testdata-route';
-import UsersRoutes from './users.route';
+import EmployersRoutes from './employers.route';
 
 require('dotenv').config();
 
@@ -37,6 +36,5 @@ app.use(bodyParser.json());
 //     unset: "destroy",
 //   })
 // );
-app.use('/', testDataRoutes);
-app.use('/users', UsersRoutes);
+app.use('/users', EmployersRoutes);
 app.listen(port, () => console.log('SERVER STARTED ON PORTS', +port));

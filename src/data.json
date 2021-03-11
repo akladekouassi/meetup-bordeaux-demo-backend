@@ -1,7 +1,7 @@
 {
   "Users": [
     {
-      "uild": "02f634b2-6ff8-4914-9a61-272eaf497e70",
+      "id": 1,
       "poste": "dev back",
       "firstName": "Aklade",
       "lastName": "Sosthene",
@@ -12,7 +12,7 @@
       "isPermanent": true
     },
     {
-      "uild": "27accf90-9acb-478f-ba13-1114f5ac1995",
+      "id": 2,
       "poste": "dev back",
       "firstName": "sosthene",
       "lastName": "marc",
@@ -23,7 +23,7 @@
       "isPermanent": true
     },
     {
-      "uild": "c6996aa2-528f-4f6a-8178-b864c3d3e724",
+      "id": 3,
       "poste": "dev front",
       "firstName": "SQSq",
       "lastName": "sqSQ",
@@ -34,7 +34,7 @@
       "isPermanent": true
     },
     {
-      "uild": "fbb5144a-64e4-4bf8-b4fa-589028cead30",
+      "id": 4,
       "poste": "dev front",
       "firstName": "SQSq",
       "lastName": "papapa",
@@ -45,7 +45,7 @@
       "isPermanent": true
     },
     {
-      "uild": "a039d9e0-a130-4ff1-966b-3ed6c07e527c",
+      "id": 5,
       "poste": "design",
       "firstName": "mama",
       "lastName": "papapa",
@@ -53,6 +53,17 @@
       "email": "mama",
       "gender": "homme",
       "hiredDate": "2021-03-25T16:11:00.000Z",
+      "isPermanent": true
+    },
+    {
+      "id": "52948cc6-92bb-426a-9323-e0b0884cddad",
+      "poste": "dev back",
+      "firstName": "fdsfds",
+      "lastName": "dqdsqdsq",
+      "phoneNumber": "fdsfd",
+      "email": "fgssfds",
+      "gender": "homme",
+      "hiredDate": "2021-03-04T21:27:00.000Z",
       "isPermanent": true
     }
   ]
