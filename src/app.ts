@@ -37,4 +37,4 @@ app.use(bodyParser.json());
 //   })
 // );
 app.use('/users', EmployersRoutes);
-app.listen(port, () => console.log('SERVER STARTED ON PORTS', +port));
+app.listen(port, () => console.log('SERVER STARTED ON PORT', +port));
