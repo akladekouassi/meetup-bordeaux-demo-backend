@@ -6,9 +6,7 @@
   "scripts": {
     "start": "node ./dist/app.js",
     "dev": "yarn start:dev",
-    "gcp-build": "tsc -P tsconfig.build.json && yarn copy:data",
     "start:dev": "ts-node-dev ./src/app.ts",
-    "copy:data": "ncp ./src/data.json ./dist/data.json",
     "lint:eslint": "yarn lint",
     "lint:ts": "yarn typecheck",
     "lint": "yarn eslint src/**/*.ts src/**/*.tsx",
