@@ -1,3 +1,3 @@
-# Kotscan Manager Fake Server
+# MEETUP DEMO FAKE SERVER
 
 🙂

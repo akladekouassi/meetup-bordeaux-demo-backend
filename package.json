@@ -26,7 +26,6 @@
     "@types/morgan": "^1.9.2",
     "@types/node": "^12.0.0",
     "@types/uuid": "^8.3.0",
-    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "env-cmd": "^10.1.0",

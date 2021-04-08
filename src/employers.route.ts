@@ -15,10 +15,10 @@ router.post('/add', (req: Request, res: Response) => {
   if (user) {
     const userReseult = createUser(user);
     res.status(201);
-    res.json({ userReseult, message: 'REGISTERED' });
+    res.json({ userReseult, message: 'EMPLOYER REGISTERED' });
   } else {
-    res.status(400);
-    res.json({ message: 'BAD REQUEST' });
+    res.status(500);
+    res.json({ message: 'SOMETHING WENT WRONG' });
   }
 });
 
